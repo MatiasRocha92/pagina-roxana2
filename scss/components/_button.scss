@@ -1,0 +1,39 @@
+.boton-contactame{
+    background-color: #d670d1E9;
+    padding: 0.6em 3.5em;
+    margin: auto;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 0.9em;
+    transition: all .4s ease-in-out;
+}
+
+.boton-contactame:hover {
+    transform: scale(1.2);
+    box-shadow: 10px 10px 10px rgba(71, 71, 71, 0.582);
+} 
+
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #d670d1;
+    color: #f1f1f1;
+    border-radius: 50%;
+    transition: all .4s ease-in-out;
+    margin-bottom: 2em;
+}
+
+.buttons a:hover {
+    transform: scale(1.2);
+    box-shadow: 10px 10px 10px rgba(71, 71, 71, 0.582);
+}

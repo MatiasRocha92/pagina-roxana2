@@ -1,0 +1,67 @@
+@media (max-widht: 700px) {
+    
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .navigation ul {
+        display: none;
+        padding: 10px 30px;
+    }
+        .navigation ul.show {
+            display: block;
+        }
+
+    .navigation {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .navigation ul li {
+        display: block;
+    }
+        .navigation ul li a {
+            display: block;
+            padding: 00.5rem 0;
+            transition: all 0.4s linear;
+            border-radius: 50px;
+        }
+
+            .navigation ul li a :hover {
+                background: #4a4a4a;
+            }
+}
+
+@media (min-width: 100px) {
+    .contenedor-galeria{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (min-width: 520px) {
+    .contenedor-galeria{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(min-width: 728px) {
+    .contenedor-galeria{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width:1024px) {
+    .contenedor-galeria{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .container__cards{
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        margin-top: 100px;
+        padding-bottom: 100px;
+    }
+}

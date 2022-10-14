@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "PoppinsBold";
+    src: url(../assets/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "PoppinsBlack";
+    src: url(../assets/fonts/Poppins-Black.ttf);
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(../assets/fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: "PoppinsLigth";
+    src: url(../assets/fonts/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: "Monserrat";
+    src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "JosefinRegular";
+    src: url("../assets/fonts/JosefinSlab-Regular.ttf");
+}
+
+.container-texto {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    z-index: 10;
+}
