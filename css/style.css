@@ -516,3 +516,9 @@ imagen {
 .container-form .btn-enviar:hover {
   background: #a009ce;
   transform: translateY(-10px) scale(1.2); }
+
+@media(max-width: 480px){
+  .container-form  {
+    width: 100%;
+  }
+}
