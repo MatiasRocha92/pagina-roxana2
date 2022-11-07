@@ -246,19 +246,20 @@ imagen {
 .imagen img {
   width: 100%; }
 
-.contenedor-galeria {
-  width: 100%;
-  margin-left: 8em;
-  margin-right: 8em;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: .5rem;
-  row-gap: .5rem;
-  position: relative;
-  top: 30px;
-  z-index: 1;
-  filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.5));
-  transition: all 400ms; }
+  .contenedor-galeria{
+    width: 100%;
+    margin-left: 8em;
+    margin-right: 8em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: .5rem;
+    row-gap: .5rem;
+    position: relative;
+    top: 30px;
+    z-index: 1;
+    filter: drop-shadow(5px 5px 4px rgba(0,0,0,0.5));
+    transition: all 400ms;
+}
 
 .imagen:hover {
   transform: scale(1.7);
